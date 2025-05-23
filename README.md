@@ -135,7 +135,7 @@ The build system is powered by a `build/.pcmp.json` configuration file, which co
 Here’s an overview of the included build configs:
 
 - **Debug**
-A minimal local build with no versioning or deployment prompts. Useful for testing quickly.
+A minimal local build with no versioning or deployment prompts. This uses a seperate darklua configuration that is focused on making your code easily debuggable and still readable.
 
 - **Beta**
 A prerelease build that prompts for a version number and can optionally deploy the output to GitHub.
