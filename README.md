@@ -18,7 +18,7 @@ Download and extract the [latest release](https://github.com/LPGhatguy/aftman/re
 
 > Replace `<path_to_aftman.exe>` with the actual location of your aftman executable. </br> Example:
 > ```ps1
-> C:\Tools\aftman.exe self-install 
+> "C:\Tools\aftman.exe" self-install 
 > ```
 
 ### [Lune](https://github.com/lune-org/lun)
