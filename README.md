@@ -10,7 +10,9 @@
 
 Aftman is a toolchain manager. It is required to install the dependencies below.
 
-Download and extract the [latest release](https://github.com/LPGhatguy/aftman/releases/latest), then run the following command:
+1. Download and extract the [latest release](https://github.com/LPGhatguy/aftman/releases/latest)
+
+2. Run the following command in command prompt/powershell:
 
 ```ps1
 <path_to_aftman.exe> self-install
@@ -32,6 +34,8 @@ aftman add lune-org/lune
 ### [Darklua](https://github.com/seaofvoices/darklua)
 
 Darklua minifies and transforms a multi-file lua project into a single executable script.
+
+Run the following command in command prompt/powershell:
 
 ```ps1
 aftman add seaofvoices/darklua
