@@ -1,5 +1,7 @@
 # Project Base
 
+> Read more about each specific project element in their respective folders.
+
 1. [Installing dependencies](#installing-dependencies)
 2. [Linting your code](#linting-your-code)
 3. [Building your project](#building-your-project)
@@ -162,7 +164,7 @@ To enable GitHub deployment, you'll need to fill in your GitHub `apiKey` under t
 }
 ```
 
-> [!WARNING]
+> [!WARNING]  
 > **NEVER** commit your actual API key to version control in public repositories. Either store it in a `.env` file or blacklist `.pcmp.json` entirely from your commits using a `.gitignore` file.
 
 ### Editing the frame

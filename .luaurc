@@ -1,6 +1,7 @@
 {
     "aliases": {
         "core": "./src/core",
-        "modules": "./src/modules"
+        "modules": "./src/modules",
+        "packages": "./src/packages"
     }
 }
