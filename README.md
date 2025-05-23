@@ -162,7 +162,8 @@ To enable GitHub deployment, you'll need to fill in your GitHub `apiKey` under t
 }
 ```
 
-> !!!! **NEVER** !!!! commit your actual API key to version control in public repositories. Either store it in a `.env` file or blacklist `.pcmp.json` entirely from your commits using a `.gitignore` file.
+> [!WARNING]
+> **NEVER** commit your actual API key to version control in public repositories. Either store it in a `.env` file or blacklist `.pcmp.json` entirely from your commits using a `.gitignore` file.
 
 ### Editing the frame
 
