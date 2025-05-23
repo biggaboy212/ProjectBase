@@ -12,7 +12,7 @@ Download and extract the [latest release](https://github.com/LPGhatguy/aftman/re
 <path_to_aftman.exe> self-install
 ```
 
-> Replace `<path_to_aftman.exe>` with the actual location of your aftman executable. </br Example:
+> Replace `<path_to_aftman.exe>` with the actual location of your aftman executable. </br> Example:
 > ```ps1
 > C:\Tools\aftman.exe self-install 
 > ```
