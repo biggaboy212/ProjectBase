@@ -9,4 +9,8 @@
     "luau-lsp.sourcemap.autogenerate": false,
     "luau-lsp.completion.autocompleteEnd": true,
     "luau-lsp.completion.enableFragmentAutocomplete": true,
+    "luau-lsp.completion.imports.requireStyle": "auto",
+    "luau-lsp.types.robloxSecurityLevel": "RobloxScriptSecurity",
+    "luau-lsp.platform.type": "roblox",
+    "luau-lsp.completion.imports.stringRequires.enabled": true,
 }
