@@ -1,3 +1,5 @@
+type table = {[any]: any}
+
 declare class EnumItem
     Name: string
     Value: number
@@ -50,7 +52,7 @@ declare class DataModel extends ServiceProvider
 	UniverseMetadataLoaded: RBXScriptSignal<>
 	Workspace: Workspace
 	SoundService: SoundService
-	Players: {[any]: any}
+	Players: table
 	[string]: any
 
     function HttpGet(self, url: string, value: any): string
@@ -91,13 +93,13 @@ end
 
 declare game: DataModel
 
-export type userdata = {[any]: any}
+export type userdata = table
 declare userdata: userdata & Instance
 
-export type _crypt = {[any]: any}
+export type _crypt = table
 declare crypt: _crypt
-export type _cache = {[any]: any}
-declare cache: _cache
+export type _cache = table
+declare cache: _cache 
 
 declare class Connection
     Enabled: boolean
@@ -258,10 +260,10 @@ export type Drawing = {
            ((type: "Triangle") -> Triangle) &
            ((type: "Image") -> Image) &
            ((type: "Text") -> Text),
-    Fonts: {[any]: any} -- nbgaf abt text or fonts or any of that shit
+    Fonts: table -- nbgaf abt text or fonts or any of that shit
 }
 
-declare workspace: {[any]: any}
+declare workspace: table
 declare Drawing: Drawing
 declare WebSocket: _WebSocket
 declare debug: _debug
@@ -327,6 +329,12 @@ declare function getgenv(): { [any]: any }
 declare function checkcaller(): boolean
 declare function getcallingscript(): BaseScript | ModuleScript
 declare function getnamecallmethod(): string
+declare function getactors(): table
+declare function gethui(): Instance
+declare function getfenv(Target: ((...any)->...any|number)): { [string]: any }
+declare function create_comm_channel(): (number, BindableEvent)
+declare function get_comm_channel(CommChannelId: number): BindableEvent?
+declare function run_on_actor(Actor: Actor, Code: string, CommChannelId: number?)
 declare function compareinstances(inst1: Instance, inst2: Instance): boolean
 declare function lz4compress(str: string): string
 declare function lz4decompress(str: string, am: number): string
